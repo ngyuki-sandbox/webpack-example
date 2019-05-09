@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>webpack example</title>
+    <link rel="stylesheet" href="<%= asset('/style.css') %>">
+</head>
+<body>
+    <%- include('./header.ejs') %>
+    <script src="<%= asset('/style.js') %>"></script>
+    <script src="<%= asset('/app.js') %>"></script>
+</body>
+</html>
